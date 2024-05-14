@@ -28,7 +28,17 @@ Logs Checker:
 Client-Side Snippet (Server-Provided Proxies):
 ![image](https://github.com/sleepyzardo/ZardoCaptchaSolver/assets/88527682/1d71ab12-af3d-4ac6-b5b1-105a75527f79)
 
+## Server Responses
+1. **500** - Internal Server error has occured. This can mean anything from my solving server failing to your api key having some issues. Further diagnostics will be done if such problem occurs.
+2. **404** - The requested endpoint was not found.
+3. **204** or **200** - Indicates a successful response
+4. **400** - Forbidden. You already have the requested UID in the queue.
 
+## Understanding Responses
+- On any successful request with the solved being true, 1 credit will be deducted. You will get a json object with timeTaken, solved and creditsUsed, UID, and proxy if any.
+- On any successful request with the solved being false, No credits will be deducted. You can request again to solve the captcha. If it still fails, Please contact an admin.
+- 500 errors are very rare but not impossible, if they do occur please contact an admin. Compensation will be provided incase the error persists.
+  
 # Note
 This is not a free api due to the cost of managing it and hence there is a very affordable price to it. If you wish to know more contact me at discord on `@sleepyzardo`.
 
