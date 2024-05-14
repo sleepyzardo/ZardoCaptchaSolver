@@ -8,6 +8,9 @@ This is an automated non-browser based recaptcha/cloudfare solver for the famous
 - Under 50s solving speed on webshare proxies.
 - Under 20s solving speed on iproyal proxies.
 - Embedded with a log checker for you.
+- Newbie friendly.
+- Requires very less coding knowledge.
+- Very affordable.
 
 ## Available Endpoints
 - **/solve** - To solve the captcha.
