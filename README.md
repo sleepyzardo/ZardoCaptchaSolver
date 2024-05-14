@@ -27,7 +27,12 @@ Client-Side Snippet (Server-Provided Proxies):
 
 
 # Note
-This is not a free api due to the cost of managing it and hence there is a very affordable price to it. If you wish to know more contact me at discord on @sleepyzardo.
+This is not a free api due to the cost of managing it and hence there is a very affordable price to it. If you wish to know more contact me at discord on `@sleepyzardo`.
 
 
 **This is only for educational purposes, Demonstrating that it is indeed possible. I've no connections to any 3rd party that may try to misuse it.**
+
+
+
+
+*For any suggestions you may have in mind. Please contact me at `@sleepyzardo`*
