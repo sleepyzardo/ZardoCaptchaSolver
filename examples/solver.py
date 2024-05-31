@@ -11,7 +11,6 @@ payload = {
 
 try:
     response = requests.post(api_url, json=payload)
-    response.raise_for_status()  # Check if the request was successful
     print('Response:', response.json())
 except requests.exceptions.RequestException as error:
     print('Error:', error)
